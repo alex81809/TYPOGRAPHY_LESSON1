@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Typography</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        h1 {
+            color:rgb(17, 172, 84);
+            text-align: center;
+            font-style: italic;
+        }
+
+        p {
+            color:rgb(0, 96, 13);
+            border: 5px solid rgb(192, 251, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-1">Typography</h1>
+        <h1 class="display-2">Typography</h1>
+        <h1 class="display-3">Typography</h1>
+        <h1 class="display-4">Typography</h1>
+
+        <br>
+        
+        <p>This is a webpage made with bootstrap. <code>coding is fun and interesting</code></p>
+
+        <p>Bootstrap is framework of css <abbr title="Welcome to Codingal">codingal</abbr></p>
+
+        <pre>
+                function myFunction() {
+                    console.log("Hello, world!")
+                }
+
+                myFunction()
+            </pre>
+
+        <blockquote class="blockquote">
+            <p>Coding is fun and interesting as long as it is running correctly</p>
+
+            <footer class="blockquote-footer">
+                Sam
+            </footer>
+        </blockquote>
+    </div>
+</body>
+
+</html>
